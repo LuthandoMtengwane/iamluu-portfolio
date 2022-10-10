@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/%20iamluu-portfolio/static/css/main.58b12cfd.css",
+    "main.js": "/%20iamluu-portfolio/static/js/main.382f5066.js",
+    "static/media/botakii.png": "/%20iamluu-portfolio/static/media/botakii.e2f3e185e2babd5dac7e.png",
+    "static/media/luuu.jpeg": "/%20iamluu-portfolio/static/media/luuu.61bf32ad83d6839db8e5.jpeg",
+    "static/media/luuu1.jpeg": "/%20iamluu-portfolio/static/media/luuu1.da34a46d8394e106f5ed.jpeg",
+    "static/media/flat.png": "/%20iamluu-portfolio/static/media/flat.a0d5854c949c3d1a7099.png",
+    "static/media/Mazius.woff": "/%20iamluu-portfolio/static/media/Mazius.e7e8a7c085ac18de582a.woff",
+    "index.html": "/%20iamluu-portfolio/index.html",
+    "main.58b12cfd.css.map": "/%20iamluu-portfolio/static/css/main.58b12cfd.css.map",
+    "main.382f5066.js.map": "/%20iamluu-portfolio/static/js/main.382f5066.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58b12cfd.css",
+    "static/js/main.382f5066.js"
+  ]
+}
