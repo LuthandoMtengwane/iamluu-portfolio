@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "Mazius";
+  src: url("../Mazius.woff");
+}
+
+body {
+  @media (max-width: 40em) {
+    background-color: #151515;
+  }
+}
+
+.header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 100px);
+
+  .title {
+    position: absolute;
+    font-size: 12rem;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: -0.9rem;
+    @media (max-width: 40em) {
+      font-size: 4.5rem;
+      margin-top: -6em;
+      color: #fff;
+      letter-spacing: -0.3rem;
+    }
+    .break {
+      display: none;
+      @media (max-width: 40em) {
+        display: block;
+      }
+    }
+    .web {
+      font-family: "Mazius", sans-serif;
+      font-size: 9rem;
+      color: #14cf93;
+      @media (max-width: 40em) {
+        font-size: 4rem;
+      }
+    }
+  }
+
+  .free {
+    position: absolute;
+    display: inline-block;
+    right: 30%;
+    transform: translate(30%);
+    font-size: 12px;
+    top: 30%;
+
+    @media (max-width: 40em) {
+      margin-top: 6rem;
+      left: 50%;
+      transform: translate(-50%, 50%);
+      color: #fff;
+
+      br {
+        display: none;
+      }
+    }
+
+    .for {
+      font-family: "Mazius", sans-serif;
+    }
+  }
+}
