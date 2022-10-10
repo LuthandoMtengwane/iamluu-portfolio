@@ -6,13 +6,14 @@ const Header = () => {
   useEffect(() => {
     const tl = gsap.timeline();
 
-    tl.from(".title h1", {
-      y: 200,
+    tl.from(".header h1", {
+      y: 70,
       ease: "power4.out",
       delay: 1,
       duration: 1.8,
     });
   });
+
   return (
     <div className="header">
       <h1 className="title">
